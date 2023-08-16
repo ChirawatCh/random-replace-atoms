@@ -1,6 +1,7 @@
 import os
 import hashlib
 import shutil
+import sys
 
 def calculate_file_hash(file_path):
     hasher = hashlib.md5()
@@ -31,7 +32,8 @@ def remove_duplicate_files(duplicate_pairs):
         os.remove(pair[0])
 
 if __name__ == "__main__":
-    folder_to_check = "output_folder"  # Replace with the folder containing your files
+    folder_to_check = sys.argv[1]
+    # folder_to_check = "Ag5Au20"  # Replace with the folder containing your files
     duplicate_pairs = find_duplicate_files(folder_to_check)
     
     if duplicate_pairs:
