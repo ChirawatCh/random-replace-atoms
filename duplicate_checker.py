@@ -25,7 +25,7 @@ def find_duplicate_files(folder):
     return duplicates
 
 if __name__ == "__main__":
-    folder_to_check = "Ag3Au22"  # Replace with the folder containing your files
+    folder_to_check = "output_folder"  # Replace with the folder containing your files
     duplicate_pairs = find_duplicate_files(folder_to_check)
 
     if duplicate_pairs:
