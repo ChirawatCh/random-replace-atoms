@@ -42,9 +42,7 @@ Replace 5 occurrences of 'Au' with 'Ag' in the input file `Au25_str.xyz`, genera
 - python main.py Au25_str.xyz output_folder Ag5Au20 Ag Au 5 3
 
 ```
-function test() {
-  console.log("This code will have a copy button to the right of it");
-}
+python main.py Au25_str.xyz output_folder Ag5Au20 Ag Au 5 3
 ```
 
 Replace `main.py` with the actual name of your Python script.
