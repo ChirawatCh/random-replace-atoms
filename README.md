@@ -39,18 +39,16 @@ Replace 5 occurrences of 'Au' with 'Ag' in the input file `Au25_str.xyz`, genera
 
 ## How to run example:
 
-- python main.py Au25_str.xyz output_folder Ag5Au20 Ag Au 5 3
-
 ```
-python main.py Au25_str.xyz output_folder Ag5Au20 Ag Au 5 3
+python main.py Au25_str.xyz output_folder Ag5Au20 Au Ag 5 3
 ```
 
 Replace `main.py` with the actual name of your Python script.
 - `Au25_str.xyz`: Path to the input XYZ file.
 - `output_folder`: Path to the folder where you want to save the output files.
 - `Ag5Au20`: Base name for the output files. Each file will be named as `Ag5Au20_i.xyz`, where `i` is the index of the output file.
-- `Ag`: The atom label you want to replace with.
-- `Au`: The atom label you want to replace.
+- `Au`: The atom label you want to replace with.
+- `Ag`: The atom label you want to replace.
 - `5`: Number of replacements to perform in each output file.
 - `3`: Number of output files to generate.
 
