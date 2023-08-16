@@ -34,12 +34,18 @@ Replace 5 occurrences of 'Au' with 'Ag' in the input file `Au25_str.xyz`, genera
 
 - The script assumes that the XYZ file has consistent formatting with the atom label being the first entry on each line.
 
-- If you encounter any issues or need assistance, feel free to contact [your_email@example.com](mailto:your_email@example.com).
+- If you encounter any issues or need assistance, feel free to contact [chirawat_mib@hotmail.com](mailto:chirawat_mib@hotmail.com).
 
 
 ## How to run example:
 
 - python main.py Au25_str.xyz output_folder Ag5Au20 Ag Au 5 3
+
+```
+function test() {
+  console.log("This code will have a copy button to the right of it");
+}
+```
 
 Replace `main.py` with the actual name of your Python script.
 - `Au25_str.xyz`: Path to the input XYZ file.
